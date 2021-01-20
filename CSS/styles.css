@@ -67,8 +67,19 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+.contenedor2 {
+    width: min(90%, 120rem);
+    margin: 0 auto;
+}
 
 /* Utilidades */
+.centrar-texto {
+    text-align: center;
+}
+.no-margin {
+    margin: 1rem auto;
+    color: var(--colorC);
+}
 
 .borde__titulo {
     border-top:0.5rem;
@@ -620,4 +631,83 @@ form {
 
 .overlay .contenedor-img button {
     padding-top: 0.3rem;
+}
+
+
+/** PÁGINA CONTACTO **/
+
+.contacto_img {
+  background-image: url(../Img/contacto1.png); 
+  height: 40rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.formulario {
+    background-color: var(--colorF);
+    margin: -3rem auto 3rem auto;
+    width:min(80rem, 100% );
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.formulario fieldset {
+    border: none;
+}
+
+.formulario legend {
+    color: var(--colorC);
+    font-family: var(--fuente);
+    font-size:2rem;
+    font-weight: 700;
+    text-align:center;
+    text-transform:uppercase;
+    margin-bottom: 2rem;
+}
+
+
+.campo {
+    margin-bottom: 2rem;
+}
+.campo__label {
+    background-color:var(--colorE);
+    border-radius:3rem;
+    color:var(--colorC);
+    font-family: var(--fuente);
+    font-size:2rem;
+    font-weight:500;
+    margin-bottom: 0.5rem;
+    display: block;
+    text-align: center;
+}
+
+.campo__field {
+    font-size:1.25rem;
+    color: rgba(255, 255, 255, 0.603);
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    text-align:center;
+}
+.campo__field--textarea {
+    height: 20rem;
+}
+
+.boton {
+    background-color: var(--colorA);
+    color: white;
+    border: none;
+    padding: 1rem 3rem;
+    margin-left: 1.5rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius:0.5rem;
+    width:90%;
+    text-align: center;
+}
+.boton:hover {
+    cursor: pointer;
 }
