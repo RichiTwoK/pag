@@ -717,7 +717,7 @@ form {
 }
 /*Pag__equipo*/
 .equipo {
-
+    margin-top: 5rem;
 }
 .equipo__titulo {
     text-align: center;
@@ -728,7 +728,7 @@ form {
     border: .6rem solid black;
 }
 .grupo {
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 .grupo__titulo {
     margin: 2rem;
@@ -762,6 +762,7 @@ form {
     border-radius:1rem;
     border-style: solid;
     margin: 2rem;
+    padding: 1rem 1rem;
 }
 .ejemplo__video video {
     max-width: 80%;
