@@ -755,6 +755,24 @@ form {
     margin: auto 2rem;
     font-size:1.6rem;
 }
+.ejemplo__titulo {
+    text-align: center;
+    text-transform: capitalize;
+    background-color:var(--colorB);
+    border-radius:1rem;
+    border-style: solid;
+    margin: 2rem;
+}
+.ejemplo__video video {
+    max-width: 80%;
+    border-radius: 2rem;
+    margin: auto 3rem;
+}
+.ejemplo__lista {
+    padding-left: 17rem;
+    text-transform:capitalize;
+    font-weight: 500;
+}
 @media (min-width: 920px) {
     .grupo__titulo {
         margin: 0 15rem 0 50rem ;
@@ -773,6 +791,9 @@ form {
         flex-basis: calc(65% - 2rem);
         padding-top: 1.2rem
     }
+    .ejemplo__titulo {
+        margin: 0;
+    }
     
     .ejemplo__div {
         display: flex;
@@ -782,21 +803,13 @@ form {
     .ejemplo__corte {
         flex-basis: calc(50% - 2rem);    
     }
-    .ejemplo__titulo {
-        text-align: center;
-        text-transform: capitalize;
-        background-color:var(--colorB);
-        border-radius:1rem;
-        border-style: solid;
-    }
+
     .ejemplo__video video {
         max-width: 100%;
-        border-radius: 2rem;
+        margin: 3rem auto;
     }
     .ejemplo__lista {
         padding-left: 15rem;
-        text-transform:capitalize;
-        font-weight: 500;
     }
 }
 
