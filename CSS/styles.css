@@ -483,6 +483,7 @@ img {
 }
 /*---------------------Pagina Diseños -----------*/
 
+
 /* Barra de busqueda */
 form {
     width: 100%;
@@ -507,6 +508,9 @@ form {
 	width: 90%;
 	max-width: 800px;
 	margin: auto;
+}
+.m__top {
+    margin-top: 3rem;
 }
 
 /* Categorias (GALERIA) */
