@@ -644,6 +644,10 @@ form {
 
 /** PÁGINA CONTACTO **/
 
+.contenedor_campos{
+    margin: auto 5rem;
+}
+
 .contacto_img {
   background-image: url(../Img/contacto1.png); 
   height: 40rem;
@@ -658,6 +662,7 @@ form {
     padding: 2rem;
     border-radius: 2rem;
 }
+
 .formulario fieldset {
     border: none;
 }
@@ -690,12 +695,13 @@ form {
 
 .campo__field {
     font-size:1.25rem;
-    color: rgba(255, 255, 255, 0.603);
+    color: black;
     width: 100%;
     border: none;
     padding: 1.5rem;
     border-radius: 0.5rem;
     text-align:center;
+    margin: auto ;
 }
 .campo__field--textarea {
     height: 20rem;
@@ -719,6 +725,8 @@ form {
 .boton:hover {
     cursor: pointer;
 }
+
+
 /*Pag__equipo*/
 .equipo {
     margin-top: 5rem;
