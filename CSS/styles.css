@@ -424,7 +424,7 @@ img {
 }
 
 
-@media (min-width: 920px) {
+@media (min-width: 731px) {
     .fondo__sn {
         height: 12vh;
     }
