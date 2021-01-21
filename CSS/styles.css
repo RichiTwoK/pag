@@ -423,8 +423,13 @@ img {
     background-position: center center;
 }
 
-
 @media (min-width: 731px) {
+    .fondo__sn {
+        height: 20vh;
+    }   
+}
+
+@media (min-width: 920px) {
     .fondo__sn {
         height: 12vh;
     }
@@ -466,8 +471,7 @@ img {
 }
 
 
-
-@media (min-width: 731px) {
+@media (min-width: 920px) {
     .fondo__flex {
         display: grid;
         grid-template-columns:repeat(3,1fr);
