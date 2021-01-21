@@ -656,7 +656,7 @@ form {
 }
 
 .formulario {
-    background-color: var(--colorF);
+    background-color: rgb(214, 115, 22);
     margin: -3rem auto 3rem auto;
     width:min(80rem, 100% );
     padding: 2rem;
