@@ -77,7 +77,6 @@ img {
 
 /* Utilidades */
 .centrar-texto {
-    margin:3rem auto;
     text-align: center;
 }
 .no-margin {
@@ -423,11 +422,6 @@ img {
     background-position: center center;
 }
 
-@media (min-width: 731px) {
-    .fondo__sn {
-        height: 21vh;
-    }   
-}
 
 @media (min-width: 920px) {
     .fondo__sn {
@@ -469,8 +463,6 @@ img {
         text-align: center;
     }
 }
-
-
 @media (min-width: 920px) {
     .fondo__flex {
         display: grid;
@@ -664,7 +656,7 @@ form {
 }
 
 .formulario {
-    background-color: rgb(201, 33, 69);
+    background-color: rgb(214, 115, 22);
     margin: -3rem auto 3rem auto;
     width:min(80rem, 100% );
     padding: 2rem;
